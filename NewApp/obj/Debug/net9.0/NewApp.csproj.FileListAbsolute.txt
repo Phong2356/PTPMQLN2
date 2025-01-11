@@ -1,0 +1,15 @@
+D:\PTPMQL\Net_Core_API\NewApp\bin\Debug\net9.0\NewApp.exe
+D:\PTPMQL\Net_Core_API\NewApp\bin\Debug\net9.0\NewApp.deps.json
+D:\PTPMQL\Net_Core_API\NewApp\bin\Debug\net9.0\NewApp.runtimeconfig.json
+D:\PTPMQL\Net_Core_API\NewApp\bin\Debug\net9.0\NewApp.dll
+D:\PTPMQL\Net_Core_API\NewApp\bin\Debug\net9.0\NewApp.pdb
+D:\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\NewApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\NewApp.AssemblyInfoInputs.cache
+D:\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\NewApp.AssemblyInfo.cs
+D:\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\NewApp.csproj.CoreCompileInputs.cache
+D:\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\NewApp.sourcelink.json
+D:\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\NewApp.dll
+D:\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\refint\NewApp.dll
+D:\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\NewApp.pdb
+D:\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\NewApp.genruntimeconfig.cache
+D:\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\ref\NewApp.dll
