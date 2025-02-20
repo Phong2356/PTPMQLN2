@@ -1,20 +1,20 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Encodings.Web;
-using BMICalculator.Models;
-namespace BMICalculator.Controllers
+using MvcMovie.Models;
+namespace MvcMovie.Controllers
 {
     public class BMIController : Controller
     {
-        public IActionResult Index()
+    public IActionResult Index()
         {
             return View();
         }
-
-        [HttpPost]
-        public IActionResult Index(BMIModel bm)
+    [HttpPost]
+        public IActionResult Index(BMI bm)
         {
-            string strOutput = bm.Weight;
-            ViewBag.BMIResult = strOutput;
+            double bmi = bm.CalculateBMI();
+            string category = bm.GetBMICategory();
+            ViewBag.BMIResult = $"{bmi:f2} {category}";
             return View();
         }
     }
