@@ -7,7 +7,7 @@ namespace MvcMovie.Models;
 public class Person
 {
     [Key]
-    public required string PersonId { get; set; }
-    public required string FullName { get; set; }
-    public required string Address { get; set; }
+    public string PersonId { get; set; } = default!;
+    public string FullName { get; set; } = default!;
+    public string? Address { get; set; }
 }
