@@ -6,6 +6,7 @@ using MvcMovie.Data;
 using MvcMovie.Models.Process;
 using System.Data;
 using OfficeOpenXml;
+using X.PagedList.Extensions;
 
 namespace MvcMovie.Controllers
 {
@@ -17,10 +18,19 @@ namespace MvcMovie.Controllers
         {
             _context = context;
         }
-        public async Task<IActionResult> Index()
+        // public async Task<IActionResult> Index()
+         // public async Task<IActionResult> Index()
+         // {
+         //     return View(await _context.Person.ToListAsync());
+         // }
+        public ActionResult Index(int? page)
         {
-            var model = await _context.Person.ToListAsync();
-            return View(model);
+            int pageSize = 3; // số mục mỗi trang
+            int pageNumber = page ?? 1; // trang hiện tại
+
+            var users = _context.Person.OrderBy(u => u.PersonId); // truy vấn danh sách
+
+            return View(users.ToPagedList(pageNumber, pageSize));
         }
         public IActionResult Create()
             {
@@ -83,6 +93,7 @@ namespace MvcMovie.Controllers
             }
             return View(person);
         }
+// Upload
         public async Task<IActionResult> Upload()
         {
             return View();
@@ -122,7 +133,7 @@ namespace MvcMovie.Controllers
             }
             return View(nameof(Create));
         }
-        //DOWNLOAD
+//DOWNLOAD
         public IActionResult Download()
         {
             var fileName = "YourFileName" + ".xlsx";
@@ -138,7 +149,7 @@ namespace MvcMovie.Controllers
                 return File(stream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileName);
             }
         }
-        //DELETE
+//DELETE
         public async Task<IActionResult> Delete(string id)
         {
             if (id == null || _context.Person == null)
