@@ -1027,3 +1027,6 @@ D:\PTPMQLN2\PTPMQL\MvcMovie\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
 D:\PTPMQLN2\PTPMQL\MvcMovie\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
 D:\PTPMQLN2\PTPMQL\MvcMovie\bin\Debug\net9.0\MailKit.dll
 D:\PTPMQLN2\PTPMQL\MvcMovie\bin\Debug\net9.0\MimeKit.dll
+D:\PTPMQLN2\PTPMQL\MvcMovie\bin\Debug\net9.0\Bogus.dll
+D:\PTPMQLN2\PTPMQL\MvcMovie\bin\Debug\net9.0\System.Text.Encoding.CodePages.dll
+D:\PTPMQLN2\PTPMQL\MvcMovie\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Text.Encoding.CodePages.dll
